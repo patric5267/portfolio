@@ -1,0 +1,89 @@
+.firstsection {
+  background-image: url(./images/banner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+.nav{
+  background-image: url(./images/banner-bg.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sixthsection{
+  background-image: url(./images/footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.submitbtn{
+  background: linear-gradient(to right , purple ,blue);
+}
+.secondsection{
+   background: linear-gradient(to bottom left , purple  , black );
+}
+*{
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.welcome{
+  background: linear-gradient(to right , purple , blue);
+}
+.listanimate{
+  background: linear-gradient(to left , purple , blue);
+  transition: 0.5s;
+}
+/* .tab:hover .listanimate{
+  width: 100%;
+} */
+.headerimg{
+  animation-name: updown;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.animate{
+  background-color: #800080a8;
+  transition: 1s;
+}
+.fourtsection{
+  background: linear-gradient(to right , purple , #0f0319);
+}
+.hide{
+  transition-delay: 1.5s;
+  transition: 1s;
+}
+.whiteback{
+  transition: 1s;
+}
+.connect:hover .whiteback{
+  width: 100%;
+}
+.connect:hover p{
+  color: black;
+  font-weight: 800;
+}
+.box{
+  cursor: pointer;
+}
+.box:hover .hide{
+  transform: scale(2);
+}
+.box:hover .animate{
+  height: 100%;
+}
+@keyframes updown {
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(10px);
+  }
+}
+
